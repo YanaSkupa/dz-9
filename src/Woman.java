@@ -12,6 +12,7 @@ public class Woman extends Person {
         setLastName(partner.getLastName());
     }
 
+
     public void deregisterPartnership(boolean returnToPreviousLastName) {
         Man partner = (Man) getPartner();
         setPartner(null);
